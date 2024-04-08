@@ -1,0 +1,59 @@
+
+@media (min-width: 1340px) {
+    body {
+        background-image: url('images/bg-desktop.svg');
+        background-attachment: fixed;
+        background-position: left;
+        
+    }
+
+    main {
+        display: flex;
+        
+    }
+
+    body img {
+        margin: 5rem;
+    }
+
+    .container1 {
+        margin-left: 3rem;
+    }
+
+    footer {
+        justify-content: right;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 1.05rem;
+    }
+
+    .button {
+        max-width: 200px;
+        justify-content: left;
+    }
+
+    button {
+        box-shadow: 2px 3px 18px rgba(0, 0, 0, 0.558);
+        font-size: 1.2rem;
+        font-weight: 100;
+        min-height: 60px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1340px) {
+    body {
+        background-image: url('images/bg-desktop.svg');
+        background-attachment: fixed;
+        background-position: left;
+        background-size: cover;
+        
+
+    }
+}

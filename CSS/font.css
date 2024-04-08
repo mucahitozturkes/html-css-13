@@ -1,0 +1,35 @@
+:root {
+    --ff-pop: "Poppins", sans-serif;
+    --fw-pop-normal: 400;
+    --fw-pop-bold: 600;
+    --ff-opensans: "Open Sans", sans-serif;
+    --fw-opensans-normal: 400;
+}
+
+h1 {
+    color: white;
+    font-family: var(--ff-opensans);
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1rem;
+    font-family: var(--ff-opensans);
+}
+
+main button {
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    margin-top: 1rem;
+}
+
+footer {
+    margin-top: 5rem;
+}
+

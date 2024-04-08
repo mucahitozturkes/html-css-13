@@ -1,0 +1,88 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Magenta: hsl(300, 69%, 71%);
+}
+
+*,
+*::after,
+*::before {
+     box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+    background-color: var(--Violet);
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 3rem;
+}
+
+main img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+
+button {
+    background-color: white;
+    border: none;
+    max-width: 400px;
+    height: 80px;
+}
+
+footer {
+    display: flex;
+    justify-self: center;
+    
+}
+
+i {
+    border-radius: 100%;
+    
+    border: 1px solid;
+    padding: .8rem;
+}
+
+footer i:nth-child(1) {
+   
+    transform: scaleX(1.4);
+}
+
+footer i:nth-child(2) {
+   margin-inline: 1.5rem;
+    transform: scaleX(1.15); 
+}
+
+footer i:nth-child(3) {
+   
+    transform: scaleX(1.2);
+}
+
+button:hover {
+    background-color: var(--Magenta);
+    color: white;
+}
+
+i:hover {
+    border: 1px solid var(--Magenta);
+   
+}
+.fa-brands:hover {
+    color: var(--Magenta); 
+   
+}
