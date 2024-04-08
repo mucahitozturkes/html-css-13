@@ -1,20 +1,20 @@
+
 @media (min-width: 1340px) {
     body {
         background-image: url('images/bg-desktop.svg');
         background-attachment: fixed;
         background-position: left;
-        
-      
-        margin: 0 auto;
+        padding: 3rem;
     }
 
     main {
         display: flex;
-        
+       
     }
 
     body img {
-       margin-top: 1rem;
+        
+
     }
 
     .container1 {
@@ -31,11 +31,13 @@
     h1 {
         font-size: 2.5rem;
         text-align: left;
+        width: 80%;
     }
 
     h2 {
         text-align: left;
         font-size: 1.05rem;
+        width: 80%;
     }
 
     .button {
@@ -52,7 +54,7 @@
 }
 @media (min-width: 900px) and (max-width: 1340px) {
     body {
-        background-image: url('images/bg-desktop.svg');
+        background-image: url(/images/bg-desktop.svg);
         background-attachment: fixed;
         background-position: left;
         background-size: cover;
