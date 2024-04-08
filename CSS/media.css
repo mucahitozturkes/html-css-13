@@ -1,7 +1,7 @@
 
 @media (min-width: 1340px) {
     body {
-        background-image: url('images/bg-desktop.svg');
+        background-image: url(/images/bg-desktop.svg);
         background-attachment: fixed;
         background-position: left;
         padding: 3rem;
@@ -9,6 +9,7 @@
 
     main {
         display: flex;
+       
     }
 
     .container1 {
