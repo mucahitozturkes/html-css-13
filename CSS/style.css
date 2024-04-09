@@ -14,7 +14,7 @@ body {
     place-content: center;
     margin: 1rem;
     background-color: var(--Violet);
-    background-image: url(/images/bg-desktop.svg);
+    background-image: url('images/bg-desktop.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
